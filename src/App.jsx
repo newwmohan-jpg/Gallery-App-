@@ -30,7 +30,10 @@ const [data0, setData0] = useState([])
       <div className='flex flex-wrap gap-2 rounded-2xl'>
         {printData}
       </div>
-      
+      <div className="flex justify-around mt-5">
+        <button className='bg-green-900 active:bg-black text-white px-4 rounded '>Prev</button>
+        <button className='bg-green-900 text-white px-4 active:bg-black  rounded '>Next</button>
+      </div>
     </div>
   )
 }
