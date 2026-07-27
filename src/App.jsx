@@ -7,7 +7,7 @@ const [data0, setData0] = useState([])
 const [page, setPage] = useState(2)
 
   const getData = async()=>{
- const response =  await axios.get(`https://picsum.photos/v2/list?page=${page}&limit=10`)
+ const response =  await axios.get(`https://picsum.photos/v2/list?page=${page}&limit=15`)
 
  setData0(response.data)
 
